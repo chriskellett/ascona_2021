@@ -4,5 +4,5 @@ $(document).ready( function () {
 });
 $(document).ready( function () {
   locNumber = $('[data-name=loc_title]').length;
-  $('[data-name=loc_count]').text(vacNumber);
+  $('[data-name=loc_count]').text(locNumber);
 });
