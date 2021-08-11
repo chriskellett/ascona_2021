@@ -1,6 +1,6 @@
 $(document).ready( function () {
   vacNumber = $('[data-name=job_title]').length;
-  $('.vac-count').text(vacNumber);
+  $('.item-count').text(vacNumber);
 });
 $(document).ready( function () {
   locNumber = $('[data-name=loc_title]').length;
